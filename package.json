@@ -16,6 +16,8 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1",
     "@vitejs/plugin-vue": "^2.3.3",
@@ -35,7 +37,7 @@
   },
   "config": {
     "commitizen": {
-        "path": "./node_modules/cz-customizable"
+      "path": "./node_modules/cz-customizable"
     }
-}
+  }
 }
