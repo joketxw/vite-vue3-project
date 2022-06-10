@@ -30,7 +30,7 @@ test('Home.vue', async () => {
   //     用来触发事件。
 
   const wrapper = mount(Home)
-  expect(wrapper.html()).toContain('Unit Test Page')
+  expect(wrapper.html()).toContain('Unit home')
   expect(wrapper.html()).toContain('count is: 0')
   await wrapper.find('button').trigger('click')
   expect(wrapper.html()).toContain('count is: 1')
